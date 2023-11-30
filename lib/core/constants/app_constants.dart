@@ -9,6 +9,11 @@ class AppConstants {
   static String baseApiUrl = dotenv.env['BASE_API_URL'] ?? '';
   static String cityApiUrl = dotenv.env['CITY_API_URL'] ?? '';
 
+  /*
+  BASE_API_URL=https://api.open-meteo.com/v1
+  CITY_API_URL=https://turkiyeapi.dev/api/v1
+  */
+
   //Sabit ayarları
   static const int millisecondsHigh = 1000;
   static const double basePaddingValue = 16.0;
