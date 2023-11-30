@@ -1,0 +1,40 @@
+name: weather_app
+description: Weather Application for Job Interview Task
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  #State Managment (Provider)
+  provider: ^6.1.1
+  #Lokal Depolama
+  shared_preferences: ^2.2.2
+  #HTTP
+  http: ^1.1.2
+  #İzin Alma
+  permission_handler: ^11.1.0
+  #Konum
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+  #Tarih
+  intl: ^0.18.1
+  #.env
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - assets/images/logo.png
+     - .env
